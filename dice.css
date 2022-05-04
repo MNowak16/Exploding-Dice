@@ -26,6 +26,6 @@ td {
 }
 
 td.exploded {
-    background-color: darkred;
-    color: black
+    background-color: black;
+    color: red;
 }
