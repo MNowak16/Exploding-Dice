@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+button {
+    font-size: large;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Set the dimensions of all table cells */
+td {
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+td.exploded {
+    background-color: darkred;
+    color: black
+}
