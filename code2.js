@@ -41,9 +41,11 @@ function rollDice() {
         //display score
         $("h2#score").text(`Score: ${totalScore}`);
 
+        if (!exploded.includes(false)) {
+            gameOver();
+        }
+
         return roll;
-    } else {
-        gameOver();
     }
 }
 

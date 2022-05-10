@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbd2fea6-fadc-47f2-b831-6d73736b16ff" name="Changes" comment="done for the night">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/code.js" afterDir="false" />
+    <list default="true" id="cbd2fea6-fadc-47f2-b831-6d73736b16ff" name="Changes" comment="working because Nick is my hero!!!!">
       <change beforePath="$PROJECT_DIR$/code2.js" beforeDir="false" afterPath="$PROJECT_DIR$/code2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,7 @@
       <workItem from="1652136566082" duration="375000" />
       <workItem from="1652136975769" duration="97000" />
       <workItem from="1652137089026" duration="7430000" />
-      <workItem from="1652144718688" duration="9785000" />
+      <workItem from="1652144718688" duration="10040000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1651672395669</created>
@@ -126,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652154183798</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="working because Nick is my hero!!!!">
+      <created>1652226460289</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652226460289</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +154,7 @@
     <MESSAGE value="current status" />
     <MESSAGE value="scoring adding properly" />
     <MESSAGE value="done for the night" />
-    <option name="LAST_COMMIT_MESSAGE" value="done for the night" />
+    <MESSAGE value="working because Nick is my hero!!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="working because Nick is my hero!!!!" />
   </component>
 </project>
