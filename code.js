@@ -11,18 +11,23 @@ function playGame(event) {
 function rollDice() {
     let die = 0;
     let roll = [];
+    let exploded = [];
 
     //roll dice
     for (let i = 0; i < 5; i++) {
         die = Math.floor(Math.random() * 6) + 1;
         $(`td#d${i + 1}`).text(die);
 
-        //append die to roll
+        //append die to roll array
         roll.push(die);
 
-        //explode 2's and 5's
+        //append exploded status to array
         if (die === 2 || die === 5) {
+            exploded.push(true);
+            //add exploded class to change color of die
             $(`td#d${i +1}`).addClass("exploded");
+        } else {
+            exploded.push(false);
         }
     }
 
@@ -45,4 +50,8 @@ function calcScore(roll) {
     }
     totalScore += score;
     return Number(totalScore);
+}
+
+function gameOver() {
+    $("h2#gameStatus").text("GAME OVER!!");
 }
