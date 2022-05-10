@@ -6,45 +6,30 @@
     <link rel="stylesheet" href="dice.css">
 </head>
 <body>
-    <!--Instructions
-    If any die shows a 2 or a 5, no points are scored that turn. Those dice are
-    set aside and cannot be rolled again. (They have "exploded" and are out of the game.)
-    If no dice exploded this round, the player earns points equal to the face values
-    of all rolled dice.
+    <!--
     The player re-rolls any "unexploded" dice and play continues with step 1.
     The game ends when all dice have exploded.
 
-    Gameplay Requirements
-    Display a graphical representation of the dice and what face is showing. Dice
-    should look "dice-like", not just numbers printed to the screen.
-
-    Exploded dice should have some visual indicator that they are out of play.
-
     The player's current score should be displayed and updated each turn.
 
-    The player is notified when the game is over.
-
-    Technical Requirements
-    Use an array and/or objects.
-
-    Create and use at least three functions.-->
+    The player is notified when the game is over.-->
 
     <h1>Megan's Exploding Dice Game</h1>
 
     <button id="roll">Roll Dice</button>
 
     <h2 id="score">Score: 0</h2>
+    <h2 id="gameStatus"></h2>
 
     <table id="dice">
         <tr>
-            <td id="d1">1</td>
-            <td id="d2">2</td>
-            <td id="d3">3</td>
-            <td id="d4">4</td>
-            <td id="d5">5</td>
+            <td id="d1"></td>
+            <td id="d2"></td>
+            <td id="d3"></td>
+            <td id="d4"></td>
+            <td id="d5"></td>
         </tr>
     </table>
-
 
     <script defer src="https://code.jquery.com/jquery-3.6.0.js"
             integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
