@@ -20,16 +20,16 @@ function rollDice() {
         //append die to roll
         roll.push(die);
 
-        calcScore(roll);
-
-        //display score
-        $("h2#score").text(`Score: ${score}`);
-
         //explode 2's and 5's
         if (die === 2 || die === 5) {
             $(`td#d${i +1}`).addClass("exploded");
         }
     }
+
+    calcScore(roll);
+    //display score
+    $("h2#score").text(`Score: ${totalScore}`);
+
     return roll;
 }
 
@@ -43,5 +43,6 @@ function calcScore(roll) {
             return a + b;
         }, 0);
     }
-    return Number(score);
+    totalScore += score;
+    return Number(totalScore);
 }

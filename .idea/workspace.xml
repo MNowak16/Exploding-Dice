@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbd2fea6-fadc-47f2-b831-6d73736b16ff" name="Changes" comment="scoring working properly with die in array">
-      <change afterPath="$PROJECT_DIR$/code2.js" afterDir="false" />
+    <list default="true" id="cbd2fea6-fadc-47f2-b831-6d73736b16ff" name="Changes" comment="current status">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,7 @@
       <workItem from="1652136566082" duration="375000" />
       <workItem from="1652136975769" duration="97000" />
       <workItem from="1652137089026" duration="7430000" />
-      <workItem from="1652144718688" duration="314000" />
+      <workItem from="1652144718688" duration="3393000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1651672395669</created>
@@ -105,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651679261277</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="current status">
+      <created>1652145281225</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652145281225</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +131,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="First roll working" />
     <MESSAGE value="scoring working properly with die in array" />
-    <option name="LAST_COMMIT_MESSAGE" value="scoring working properly with die in array" />
+    <MESSAGE value="current status" />
+    <option name="LAST_COMMIT_MESSAGE" value="current status" />
   </component>
 </project>
