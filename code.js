@@ -2,6 +2,9 @@ $("button#roll").on("click", playGame);
 
 let score = 0;
 let totalScore = 0;
+let exploded = [false, false, false, false, false];
+
+//let allDie = [5];
 
 function playGame(event) {
     event.preventDefault();
@@ -11,31 +14,37 @@ function playGame(event) {
 function rollDice() {
     let die = 0;
     let roll = [];
-    let exploded = [];
 
-    //roll dice
-    for (let i = 0; i < 5; i++) {
-        die = Math.floor(Math.random() * 6) + 1;
-        $(`td#d${i + 1}`).text(die);
+    if (exploded.includes(false)) {
+        //roll dice
+        for (let i = 0; i < 5; i++) {
+            if (exploded[i] === false) {
+                die = Math.floor(Math.random() * 6) + 1;
+                $(`td#d${i + 1}`).text(die);
 
-        //append die to roll array
-        roll.push(die);
+                //append die to roll array
+                roll.push(die);
 
-        //append exploded status to array
-        if (die === 2 || die === 5) {
-            exploded.push(true);
-            //add exploded class to change color of die
-            $(`td#d${i +1}`).addClass("exploded");
-        } else {
-            exploded.push(false);
+                //append exploded status to array
+                if (die === 2 || die === 5) {
+                    exploded[i] = true;
+                    //add exploded die to allDie, so they don't change each roll
+                    //allDie[i] = die;
+                    //add exploded class to change color of die
+                    $(`td#d${i +1}`).addClass("exploded");
+                }
+            }
+
         }
+
+        calcScore(roll);
+        //display score
+        $("h2#score").text(`Score: ${totalScore}`);
+
+        return roll;
+    } else {
+        gameOver();
     }
-
-    calcScore(roll);
-    //display score
-    $("h2#score").text(`Score: ${totalScore}`);
-
-    return roll;
 }
 
 

@@ -1,56 +1,52 @@
 $("button#roll").on("click", playGame);
 
-/*for(let oneDice of allDice) {
-    //displays face of die
-    console.log(oneDice.face);
-    //displays exploded status
-    console.log(oneDice.exploded);
-}*/
-
-//parallel arrays for die & exploded status
-let roll = [];
-let exploded = [];
-
 let score = 0;
 let totalScore = 0;
+let exploded = [false, false, false, false, false];
+
+//let allDie = [5];
 
 function playGame(event) {
     event.preventDefault();
     rollDice();
-
-    /*    while (exploded.includes("false")) {
-            rollDice();
-        }*/
-    //gameOver();
 }
 
 function rollDice() {
-    //roll dice that do not have exploded class
-    for (let i = 0; i < 5; i++) {
-        let die = 0;
+    let die = 0;
+    let roll = [];
 
-        die = Math.floor(Math.random() * 6) + 1;
-        $(`td#d${i + 1}`).text(die);
+    if (exploded.includes(false)) {
+        //roll dice
+        for (let i = 0; i < 5; i++) {
+            if (exploded[i] === false) {
+                die = Math.floor(Math.random() * 6) + 1;
+                $(`td#d${i + 1}`).text(die);
 
-        //append die to roll
-        roll.push(die);
+                //append die to roll array
+                roll.push(die);
 
-        //totalScore = current total score + current roll score
-        totalScore += calcScore(roll);
+                //append exploded status to array
+                if (die === 2 || die === 5) {
+                    exploded[i] = true;
+                    //add exploded die to allDie, so they don't change each roll
+                    //allDie[i] = die;
+                    //add exploded class to change color of die
+                    $(`td#d${i +1}`).addClass("exploded");
+                }
+            }
 
-        //display the total score
+        }
+
+        calcScore(roll);
+        //display score
         $("h2#score").text(`Score: ${totalScore}`);
 
-        //explode 2's and 5's
-        if (die === 2 || die === 5) {
-            $(`td#d${i +1}`).addClass("exploded");
-            exploded.push("true");
-        } else {
-            exploded.push("false");
-        }
+        return roll;
+    } else {
+        gameOver();
     }
-    return roll;
 }
+
 
 function calcScore(roll) {
     //count score if 2 or 5 in array of die
@@ -61,7 +57,8 @@ function calcScore(roll) {
             return a + b;
         }, 0);
     }
-    return Number(score);
+    totalScore += score;
+    return Number(totalScore);
 }
 
 function gameOver() {
