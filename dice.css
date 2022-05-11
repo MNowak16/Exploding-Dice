@@ -29,3 +29,7 @@ td.exploded {
     background-color: black;
     color: red;
 }
+
+a:link {
+    text-decoration: none;
+}

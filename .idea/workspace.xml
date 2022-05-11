@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbd2fea6-fadc-47f2-b831-6d73736b16ff" name="Changes" comment="Cleaned up code for submittal">
-      <change beforePath="$PROJECT_DIR$/code2.js" beforeDir="false" />
+    <list default="true" id="cbd2fea6-fadc-47f2-b831-6d73736b16ff" name="Changes" comment="play again button">
+      <change afterPath="$PROJECT_DIR$/instructions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dice.css" beforeDir="false" afterPath="$PROJECT_DIR$/dice.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +19,7 @@
         <option value="jQuery" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -42,6 +47,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -80,7 +86,8 @@
       <workItem from="1652136975769" duration="97000" />
       <workItem from="1652137089026" duration="7430000" />
       <workItem from="1652144718688" duration="11559000" />
-      <workItem from="1652309306744" duration="1430000" />
+      <workItem from="1652309306744" duration="2163000" />
+      <workItem from="1652311492805" duration="760000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1651672395669</created>
@@ -145,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652310643427</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="play again button">
+      <created>1652311101382</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652311101382</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +186,7 @@
     <MESSAGE value="working because Nick is my hero!!!!" />
     <MESSAGE value="ALL DONE!!! :)" />
     <MESSAGE value="Cleaned up code for submittal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code for submittal" />
+    <MESSAGE value="play again button" />
+    <option name="LAST_COMMIT_MESSAGE" value="play again button" />
   </component>
 </project>
