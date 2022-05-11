@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbd2fea6-fadc-47f2-b831-6d73736b16ff" name="Changes" comment="play again button">
-      <change afterPath="$PROJECT_DIR$/instructions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dice.css" beforeDir="false" afterPath="$PROJECT_DIR$/dice.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="cbd2fea6-fadc-47f2-b831-6d73736b16ff" name="Changes" comment="Added instructions page">
+      <change beforePath="$PROJECT_DIR$/instructions.html" beforeDir="false" afterPath="$PROJECT_DIR$/instructions.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +83,7 @@
       <workItem from="1652137089026" duration="7430000" />
       <workItem from="1652144718688" duration="11559000" />
       <workItem from="1652309306744" duration="2163000" />
-      <workItem from="1652311492805" duration="760000" />
+      <workItem from="1652311492805" duration="1228000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1651672395669</created>
@@ -159,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652311101382</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added instructions page">
+      <created>1652312366151</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1652312366151</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +190,7 @@
     <MESSAGE value="ALL DONE!!! :)" />
     <MESSAGE value="Cleaned up code for submittal" />
     <MESSAGE value="play again button" />
-    <option name="LAST_COMMIT_MESSAGE" value="play again button" />
+    <MESSAGE value="Added instructions page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added instructions page" />
   </component>
 </project>
