@@ -58,4 +58,11 @@ function calcScore(roll) {
 
 function gameOver() {
     $("h2#gameStatus").text("GAME OVER!!");
+    //changes roll button to say play again
+    //when clicked, it refreshes the page
+    $("button#roll").text("PLAY AGAIN").on("click", refreshGame);
+}
+
+function refreshGame() {
+    location.reload();
 }
