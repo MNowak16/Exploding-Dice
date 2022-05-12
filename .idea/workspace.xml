@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbd2fea6-fadc-47f2-b831-6d73736b16ff" name="Changes" comment="Added instructions page">
-      <change beforePath="$PROJECT_DIR$/instructions.html" beforeDir="false" afterPath="$PROJECT_DIR$/instructions.html" afterDir="false" />
-    </list>
+    <list default="true" id="cbd2fea6-fadc-47f2-b831-6d73736b16ff" name="Changes" comment="added css to instructions page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +81,7 @@
       <workItem from="1652137089026" duration="7430000" />
       <workItem from="1652144718688" duration="11559000" />
       <workItem from="1652309306744" duration="2163000" />
-      <workItem from="1652311492805" duration="1228000" />
+      <workItem from="1652311492805" duration="1964000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1651672395669</created>
@@ -162,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652312366151</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added css to instructions page">
+      <created>1652312916538</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1652312916538</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +196,7 @@
     <MESSAGE value="Cleaned up code for submittal" />
     <MESSAGE value="play again button" />
     <MESSAGE value="Added instructions page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added instructions page" />
+    <MESSAGE value="added css to instructions page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added css to instructions page" />
   </component>
 </project>
